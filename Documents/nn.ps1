@@ -17,7 +17,7 @@ $pAssigns=$data.policyAssignments
 $pAssigns | FT
 
 $policyDefinations = $pAssigns.policyDefinitions
-$policyDefinations | FT
+$policyDefinations | Format-Table
 
 $result = $policyDefinations.results
 $result |FT
