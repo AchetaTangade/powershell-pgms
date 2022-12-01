@@ -32,3 +32,4 @@ $results | FT
 
 Get-AzPolicyStateSummary
 az policy state summary
+..
