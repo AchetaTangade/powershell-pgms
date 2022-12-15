@@ -1,5 +1,5 @@
 ﻿#to fetch azure policies
-az login
+az login   
 
 az account set --subscription 5ec066e4-9c88-444b-84c7-657da8c158c7
 
